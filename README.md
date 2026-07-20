@@ -1,0 +1,1 @@
+# poisk_ocr_v12
