@@ -1,0 +1,33 @@
+`manifest.json`:
+
+{
+  "name": "POISK OCR — Розпізнавання автономерів",
+  "short_name": "POISK OCR",
+  "description": "PWA для розпізнавання українських та європейських автомобільних номерів з IP-камер",
+  "start_url": "./INDEX.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "lang": "uk-UA",
+  "dir": "ltr",
+  "categories": ["productivity", "utilities", "photo"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "prefer_related_applications": false
+}
+
+**Что изменилось:** ориентация `landscape` (IP-камеры), язык `uk-UA`, описание под украинские/европейские номера.
